@@ -74,10 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				E2D800F51CCB99670036C0B6 /* main.swift */,
+				E2521ED51CCBB7FE009710B0 /* independencyInjector.swift */,
 				E2D800FE1CCB997C0036C0B6 /* model */,
 				E2D800FD1CCB99770036C0B6 /* controller */,
 				E2D800FC1CCB996F0036C0B6 /* view */,
-				E2521ED51CCBB7FE009710B0 /* independencyInjector.swift */,
 			);
 			path = kataContacts;
 			sourceTree = "<group>";
