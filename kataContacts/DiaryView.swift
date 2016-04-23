@@ -10,14 +10,13 @@ import Foundation
 
 class DiaryView{
     
-    var contactController: ContactController
+    var contactController: ContactController?
     
-    init (){
-        self.contactController = ContactController()
-    }
     
-    func initializer() -> Void {
-        contactController.initializer(self)
+    
+    func initializer(newContactController: ContactController) -> Void {
+        self.contactController = newContactController
+        self.contactController?.initializer(self)
     }
     
     func getName() -> String {
@@ -32,14 +31,14 @@ class DiaryView{
     }
     
     func addContact(contact: Contact) -> Void{
-        contactController.addContact(contact)
+        contactController?.addContact(contact)
         
     }
     
     func showContacts(contacts: [Contact]) -> Void  {
         for i in contacts{
-            print(i.getName())
-            print(i.getPhone())
+            print("Name: \(i.getName())  Number: \(i.getPhone()) ")
+            
         }
         
     }

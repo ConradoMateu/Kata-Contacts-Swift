@@ -12,8 +12,8 @@ class ContactController{
     var diary: Diary
     var view : DiaryView?
     
-    init(){
-        self.diary = Diary()
+    init(newDiary: Diary){
+        self.diary = newDiary
     }
     
     func initializer(view: DiaryView) -> Void {

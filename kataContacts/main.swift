@@ -10,8 +10,16 @@ import Foundation
 
 import Foundation
 
-
+let diary: Diary = Diary()
+let contactController: ContactController = ContactController(newDiary: diary)
 let diaryView = DiaryView()
+contactController.initializer(diaryView)
+diaryView.initializer(contactController)
+
+
+
+
+
 
 while true {
     var name = diaryView.getName()
