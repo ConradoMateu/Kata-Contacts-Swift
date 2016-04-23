@@ -1,2 +1,5 @@
 # Kata-Contacts-Swift
-Simple Project With Clean Architecture and MVC
+
+Implementing Diary of Contacts With Clean Architecture and MVC
+
+
