@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E2D800F61CCB99670036C0B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D800F51CCB99670036C0B6 /* main.swift */; };
+		E2D801001CCB99A10036C0B6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D800FF1CCB99A10036C0B6 /* Contact.swift */; };
+		E2D801021CCB99A90036C0B6 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801011CCB99A90036C0B6 /* Diary.swift */; };
+		E2D801041CCB99BE0036C0B6 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801031CCB99BE0036C0B6 /* ContactController.swift */; };
+		E2D801061CCB99CC0036C0B6 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801051CCB99CC0036C0B6 /* DiaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		E2D800F21CCB99670036C0B6 /* kataContacts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kataContacts; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D800F51CCB99670036C0B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E2D800FF1CCB99A10036C0B6 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		E2D801011CCB99A90036C0B6 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		E2D801031CCB99BE0036C0B6 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		E2D801051CCB99CC0036C0B6 /* DiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,37 @@
 		E2D800F41CCB99670036C0B6 /* kataContacts */ = {
 			isa = PBXGroup;
 			children = (
-				E2D800F51CCB99670036C0B6 /* main.swift */,
+				E2D800FE1CCB997C0036C0B6 /* model */,
+				E2D800FD1CCB99770036C0B6 /* controller */,
+				E2D800FC1CCB996F0036C0B6 /* view */,
 			);
 			path = kataContacts;
+			sourceTree = "<group>";
+		};
+		E2D800FC1CCB996F0036C0B6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2D800F51CCB99670036C0B6 /* main.swift */,
+				E2D801051CCB99CC0036C0B6 /* DiaryView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		E2D800FD1CCB99770036C0B6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2D801031CCB99BE0036C0B6 /* ContactController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E2D800FE1CCB997C0036C0B6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E2D800FF1CCB99A10036C0B6 /* Contact.swift */,
+				E2D801011CCB99A90036C0B6 /* Diary.swift */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D801061CCB99CC0036C0B6 /* DiaryView.swift in Sources */,
+				E2D801001CCB99A10036C0B6 /* Contact.swift in Sources */,
 				E2D800F61CCB99670036C0B6 /* main.swift in Sources */,
+				E2D801041CCB99BE0036C0B6 /* ContactController.swift in Sources */,
+				E2D801021CCB99A90036C0B6 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

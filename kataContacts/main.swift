@@ -8,5 +8,16 @@
 
 import Foundation
 
-print("Hello, World!")
+import Foundation
 
+
+let diaryView = DiaryView()
+
+while true {
+    var name = diaryView.getName()
+    var number = diaryView.getNumber()
+    
+    var contact =  Contact(name: name, phone: number)
+    diaryView.addContact(contact)
+
+}
