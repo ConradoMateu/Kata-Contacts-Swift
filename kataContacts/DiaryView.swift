@@ -12,10 +12,14 @@ class DiaryView{
     
     var contactController: ContactController?
     
+    init(initController: ContactController){
+        
+        self.contactController = initController
+        initializer()
+    }
     
     
-    func initializer(newContactController: ContactController) -> Void {
-        self.contactController = newContactController
+    func initializer() -> Void {
         self.contactController?.initializer(self)
     }
     

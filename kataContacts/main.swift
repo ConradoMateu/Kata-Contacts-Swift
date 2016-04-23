@@ -12,9 +12,7 @@ import Foundation
 
 let diary: Diary = Diary()
 let contactController: ContactController = ContactController(newDiary: diary)
-let diaryView = DiaryView()
-contactController.initializer(diaryView)
-diaryView.initializer(contactController)
+let diaryView = DiaryView(initController: contactController)
 
 
 
