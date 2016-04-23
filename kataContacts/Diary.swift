@@ -8,24 +8,7 @@
 
 import Foundation
 
-class Diary {
-    
-    
-    private var contacts: [Contact]
-    
-    init(){
-        self.contacts = [Contact]()
-    }
-    
-    func getContacts() -> [Contact] {
-        return contacts
-    }
-    
-    func addContact( contact : Contact) -> Void{
-        contacts.append(contact)
-    }
-    
+protocol Diary {
+    func getContacts() -> [Contact]
+    func addContact( contact : Contact) -> Void
 }
-
-
-

@@ -8,12 +8,12 @@
 
 import Foundation
 
-func modelInitializer() -> Diary {
-    return Diary()
+func modelInitializer() -> DiaryImp {
+    return DiaryImp()
 }
-func controllerInitializer(diary: Diary) -> ContactController {
-    return ContactController(newDiary: diary)
+func controllerInitializer(diary: DiaryImp) -> ContactControllerImp {
+    return ContactControllerImp(newDiaryImp: diary)
 }
-func viewInitializer(contactController: ContactController) -> DiaryView {
-    return DiaryView(initController: contactController)
+func viewInitializer(contactController: ContactControllerImp) -> DiaryImpViewImp {
+    return DiaryImpViewImp(initController: contactController)
 }

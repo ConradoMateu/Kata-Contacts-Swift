@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E2521ED61CCBB7FE009710B0 /* independencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2521ED51CCBB7FE009710B0 /* independencyInjector.swift */; };
+		E2521ED81CCBC139009710B0 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2521ED71CCBC139009710B0 /* Diary.swift */; };
+		E2521EDA1CCBC1FA009710B0 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2521ED91CCBC1FA009710B0 /* ContactController.swift */; };
+		E2521EDC1CCBC259009710B0 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2521EDB1CCBC259009710B0 /* DiaryView.swift */; };
 		E2D800F61CCB99670036C0B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D800F51CCB99670036C0B6 /* main.swift */; };
 		E2D801001CCB99A10036C0B6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D800FF1CCB99A10036C0B6 /* Contact.swift */; };
-		E2D801021CCB99A90036C0B6 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801011CCB99A90036C0B6 /* Diary.swift */; };
-		E2D801041CCB99BE0036C0B6 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801031CCB99BE0036C0B6 /* ContactController.swift */; };
-		E2D801061CCB99CC0036C0B6 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801051CCB99CC0036C0B6 /* DiaryView.swift */; };
+		E2D801021CCB99A90036C0B6 /* DiaryImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801011CCB99A90036C0B6 /* DiaryImp.swift */; };
+		E2D801041CCB99BE0036C0B6 /* ContactControllerImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801031CCB99BE0036C0B6 /* ContactControllerImp.swift */; };
+		E2D801061CCB99CC0036C0B6 /* DiaryViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D801051CCB99CC0036C0B6 /* DiaryViewImp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,13 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E2521ED51CCBB7FE009710B0 /* independencyInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = independencyInjector.swift; sourceTree = "<group>"; };
+		E2521ED51CCBB7FE009710B0 /* independencyInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = independencyInjector.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E2521ED71CCBC139009710B0 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		E2521ED91CCBC1FA009710B0 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		E2521EDB1CCBC259009710B0 /* DiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
 		E2D800F21CCB99670036C0B6 /* kataContacts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kataContacts; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D800F51CCB99670036C0B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E2D800F51CCB99670036C0B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = main.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2D800FF1CCB99A10036C0B6 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		E2D801011CCB99A90036C0B6 /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
-		E2D801031CCB99BE0036C0B6 /* ContactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
-		E2D801051CCB99CC0036C0B6 /* DiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		E2D801011CCB99A90036C0B6 /* DiaryImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DiaryImp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E2D801031CCB99BE0036C0B6 /* ContactControllerImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ContactControllerImp.swift; path = kataContacts/ContactControllerImp.swift; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E2D801051CCB99CC0036C0B6 /* DiaryViewImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DiaryViewImp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +85,8 @@
 		E2D800FC1CCB996F0036C0B6 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				E2D801051CCB99CC0036C0B6 /* DiaryView.swift */,
+				E2D801051CCB99CC0036C0B6 /* DiaryViewImp.swift */,
+				E2521EDB1CCBC259009710B0 /* DiaryView.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -87,7 +94,8 @@
 		E2D800FD1CCB99770036C0B6 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				E2D801031CCB99BE0036C0B6 /* ContactController.swift */,
+				E2D801031CCB99BE0036C0B6 /* ContactControllerImp.swift */,
+				E2521ED91CCBC1FA009710B0 /* ContactController.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -96,7 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				E2D800FF1CCB99A10036C0B6 /* Contact.swift */,
-				E2D801011CCB99A90036C0B6 /* Diary.swift */,
+				E2D801011CCB99A90036C0B6 /* DiaryImp.swift */,
+				E2521ED71CCBC139009710B0 /* Diary.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -158,12 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D801061CCB99CC0036C0B6 /* DiaryView.swift in Sources */,
+				E2521ED81CCBC139009710B0 /* Diary.swift in Sources */,
+				E2D801061CCB99CC0036C0B6 /* DiaryViewImp.swift in Sources */,
+				E2521EDA1CCBC1FA009710B0 /* ContactController.swift in Sources */,
 				E2D801001CCB99A10036C0B6 /* Contact.swift in Sources */,
 				E2D800F61CCB99670036C0B6 /* main.swift in Sources */,
+				E2521EDC1CCBC259009710B0 /* DiaryView.swift in Sources */,
 				E2521ED61CCBB7FE009710B0 /* independencyInjector.swift in Sources */,
-				E2D801041CCB99BE0036C0B6 /* ContactController.swift in Sources */,
-				E2D801021CCB99A90036C0B6 /* Diary.swift in Sources */,
+				E2D801041CCB99BE0036C0B6 /* ContactControllerImp.swift in Sources */,
+				E2D801021CCB99A90036C0B6 /* DiaryImp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

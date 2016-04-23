@@ -8,46 +8,10 @@
 
 import Foundation
 
-class DiaryView{
-    
-    var contactController: ContactController?
-    
-    init(initController: ContactController){
-        
-        self.contactController = initController
-        initializer()
-    }
-    
-    
-    func initializer() -> Void {
-        self.contactController?.initializer(self)
-    }
-    
-    func getName() -> String {
-        print("Name: ")
-        return readLine()!
-    }
-    
-    func getNumber() -> String{
-        print("Phone: ")
-        return readLine()!
-        
-    }
-    
-    func addContact(contact: Contact) -> Void{
-        contactController?.addContact(contact)
-        
-    }
-    
-    func showContacts(contacts: [Contact]) -> Void  {
-        for i in contacts{
-            print("Name: \(i.getName())  Number: \(i.getPhone()) ")
-            
-        }
-        
-    }
-    
-    
-    
-    
+protocol DiaryView {
+    func initializer() -> Void
+    func getName() -> String
+    func getNumber() -> String
+    func addContact(contact: Contact) -> Void
+    func showContacts(contacts: [Contact]) -> Void
 }
