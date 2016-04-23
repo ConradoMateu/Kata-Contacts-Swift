@@ -9,20 +9,20 @@
 import Foundation
 
 class ContactControllerImp: ContactController{
-    var diary: DiaryImp
-    var view : DiaryImpViewImp?
+    var diary: Diary
+    var view : DiaryView?
     
-    init(newDiaryImp: DiaryImp){
+    init(newDiaryImp: Diary){
         self.diary = newDiaryImp
     }
     
-    func initializer(view: DiaryImpViewImp) -> Void {
+    func initializer(view: DiaryView) -> Void {
         self.view = view
     }
     
     func addContact(contact: Contact) -> Void{
         diary.addContact(contact)
-        diaryView.showContacts(diary.getContacts())
+        view?.showContacts(diary.getContacts())
     }
     
     

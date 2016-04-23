@@ -9,7 +9,7 @@
 import Foundation
 
 protocol ContactController {
-    func initializer(view: DiaryImpViewImp) -> Void
+    func initializer(view: DiaryView) -> Void
     
     func addContact(contact: Contact) -> Void
 }

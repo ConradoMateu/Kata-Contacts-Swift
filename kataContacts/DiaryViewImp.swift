@@ -8,11 +8,11 @@
 
 import Foundation
 
-class DiaryImpViewImp: DiaryView{
+class DiaryViewImp: DiaryView{
     
-    var contactController: ContactControllerImp?
+    var contactController: ContactController?
     
-    init(initController: ContactControllerImp){
+    init(initController: ContactController){
         
         self.contactController = initController
         initializer()
